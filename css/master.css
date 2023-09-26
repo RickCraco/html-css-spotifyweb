@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -14,6 +15,22 @@
     --color-grey: #717171;
     --color-light-grey: #c1c1c1;
     --color-highlight: #adff2f;
+}
+
+.padding-sidebar{
+    padding: 20px;
+}
+
+.padding-left{
+    padding-left: 20px;
+}
+
+.margine-top{
+    margin-top: 15px;
+}
+
+ul{
+    list-style: none;
 }
 
 .debug{
@@ -37,7 +54,7 @@
     bottom: 0;
     left: 0;
     z-index: 1000;
-    background-color: #717171;
+    background-color: var(--color-dark-grey);
 }
 
 .side-bar{
@@ -69,6 +86,10 @@
     border-left: 2px solid var(--color-highlight);
 }
 
+.border-bottom-grey{
+    border-bottom: 1px solid var(--color-grey);
+}
+
 /* utility flex */
 
 .d-flex{
@@ -79,14 +100,42 @@
     align-items: center;
 }
 
+.flex-sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 /*sidebar*/
 
 .logo{
     width: 80%;
-    padding: 10px;
+    padding: 20px;
 }
 
 .side-bar-icon{
     width: 30px;
     height: 30px;
+}
+
+.add-playlist{
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-light-grey);
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.download-img{
+    width: 20px;
+    height: 20px;
+}
+
+.profile-img{
+    width: 25px;
+    height: 25px;
+    background-color: var(--color-grey);
+    border-radius: 50%;
 }
