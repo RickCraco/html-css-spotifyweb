@@ -59,8 +59,34 @@
     background-color: #282828;
 }
 
+/*colori testo ecc...*/
+
+.text-white{
+    color: white;
+}
+
+.border-green{
+    border-left: 2px solid var(--color-highlight);
+}
+
 /* utility flex */
 
 .d-flex{
     display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/*sidebar*/
+
+.logo{
+    width: 80%;
+    padding: 10px;
+}
+
+.side-bar-icon{
+    width: 30px;
+    height: 30px;
 }
