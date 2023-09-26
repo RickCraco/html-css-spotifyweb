@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat";
 }
 
 :root {
@@ -15,6 +15,10 @@
     --color-grey: #717171;
     --color-light-grey: #c1c1c1;
     --color-highlight: #adff2f;
+}
+
+.padding-section{
+    padding: 15px;
 }
 
 .padding-sidebar{
@@ -65,6 +69,8 @@ ul{
 .content-page{
     width: calc(100% - 250px);
     background-color: var(--color-dark-color);
+    padding-top: 120px;
+    overflow-y: auto;
 }
 
 .call-to-action{
@@ -73,7 +79,7 @@ ul{
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #282828;
+    background-color: #0000004f;
 }
 
 /*colori testo ecc...*/
@@ -92,8 +98,25 @@ ul{
 
 /* utility flex */
 
+.flex-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
 .d-flex{
     display: flex;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .align-center{
@@ -104,6 +127,12 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 /*sidebar*/
@@ -138,4 +167,43 @@ ul{
     height: 25px;
     background-color: var(--color-grey);
     border-radius: 50%;
+}
+
+/*call to action*/
+
+.upgrade-button{
+    border: 1px solid var(--color-white);
+    color: var(--color-white);
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+/* main content */
+
+/*nav sopra*/
+
+.font-nav{
+    font-size: 15px;
+    color: var(--color-grey);
+    font-weight: 600;
+}
+
+/* album */
+
+.card-container{
+    /*padding: 15px;*/
+}
+
+.card{
+    width: calc(100% / 6 - 15px);
+}
+
+.goku{
+    width: 100%;
+}
+
+section h2{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
