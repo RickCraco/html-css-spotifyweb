@@ -122,6 +122,11 @@ ul{
     gap: 15px;
 }
 
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .gap15{
     gap: 15px;
 }
@@ -242,6 +247,14 @@ section h2{
 
 /*playbar*/
 
+.sx{
+    width: 250px;
+}
+
+.dx{
+    width: 250px;
+}
+
 .playbar-img{
     width: 45px;
     height: 45px;
@@ -313,15 +326,15 @@ section h2{
 
 @media screen and (max-width: 576px){
     .side-bar{
-        width: 100px;
+        width: 90px;
     }
 
     .content-page{
-        width: calc(100% - 100px);
+        width: calc(100% - 90px);
     }
 
     .call-to-action{
-        width: calc(100% - 100px);
+        width: calc(100% - 90px);
     }
 
     .scomparisci{
@@ -329,12 +342,33 @@ section h2{
     }
 
     .flex-sidebar{
-        /*align-items: center;*/
+        align-items: center;
     }
 
     .none{
         display: block;
         width: 100%;
+    }
+
+    .barra1{
+        width: 100px;
+    }
+
+    .barra2{
+        width: 30px;
+    }
+
+    .playbar-icon{
+        font-size: 12px;
+    }
+
+    .playbar-play{
+        font-size: 16px;
+    }
+
+    #barra-numeri{
+        display: flex;
+        justify-content: center;
     }
 }
 
