@@ -25,6 +25,10 @@
     padding: 20px;
 }
 
+.padding-right{
+    padding-right: 20px;
+}
+
 .padding-left{
     padding-left: 20px;
 }
@@ -220,4 +224,33 @@ section h2{
 .card-rounded{
     border-radius: 50%;
     text-align: center;
+}
+
+
+/*playbar*/
+
+.playbar-img{
+    width: 45px;
+    height: 45px;
+}
+
+.song-name{
+    font-size: 13px;
+}
+
+.padding-song{
+    padding-left: 10px;
+}
+
+.playbar-icon{
+    font-size: 20px;
+}
+
+.playbar-play{
+    font-size: 30px;
+}
+
+.barra1{
+    width: 400px;
+    appearance: edge;
 }
