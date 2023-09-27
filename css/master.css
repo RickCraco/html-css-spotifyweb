@@ -72,6 +72,7 @@ ul{
 .side-bar{
     width: 250px;
     background-color: var(--color-black);
+    overflow: hidden;
 }
 
 .content-page{
@@ -334,5 +335,11 @@ section h2{
     .none{
         display: block;
         width: 100%;
+    }
+}
+
+@media screen and (max-height: 720px){
+    .side-bar{
+        overflow-y: auto;
     }
 }
