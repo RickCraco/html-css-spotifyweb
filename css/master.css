@@ -117,6 +117,14 @@ ul{
     gap: 15px;
 }
 
+.gap15{
+    gap: 15px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
 .d-flex{
     display: flex;
 }
@@ -252,5 +260,15 @@ section h2{
 
 .barra1{
     width: 400px;
-    appearance: edge;
+    height: 4px;
+    background: var(--color-grey);
+    cursor: pointer;
+    accent-color: var(--color-white);
+}
+
+.barra2{
+    background: var(--color-grey);
+    cursor: pointer;
+    accent-color: var(--color-white);
+    height: 4px;
 }

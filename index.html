@@ -297,33 +297,38 @@
 
             <div>
 
-                <ul class="flex-between text-white">
-                    <li class="padding-left playbar-icon"><i class="fa-solid fa-shuffle"></i></li>
-                    <li class="padding-left playbar-icon"><i class="fa-solid fa-backward-step"></i></li>
-                    <li class="padding-left playbar-play"><i class="fa-regular fa-circle-play"></i></li>
-                    <li class="padding-left playbar-icon"><i class="fa-solid fa-forward-step"></i></li>
-                    <li class="padding-left padding-right playbar-icon"><i class="fa-solid fa-rotate-right"></i></li>
-                </ul>
+                <div>
+                    <ul class="d-flex align-center justify-center text-white gap15">
+                        <li><i class="fa-solid fa-shuffle padding-left playbar-icon"></i></li>
+                        <li><i class="fa-solid fa-backward-step padding-left playbar-icon"></i></li>
+                        <li><i class="fa-regular fa-circle-play padding-left playbar-play"></i></li>
+                        <li><i class="fa-solid fa-forward-step padding-left playbar-icon"></i></li>
+                        <li><i class="fa-solid fa-rotate-right padding-left playbar-icon padding-right"></i></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <ul class="flex-between margine-top">
 
-                <ul class="flex-between margine-top">
+                        <li class="text-white">0:25</li>
 
-                    <li class="text-white">0:25</li>
+                        <li class="padding-left"><input type="range" name="song" id="song" class="barra1"></li>
 
-                    <li class="padding-left"><input type="range" name="song" id="song" class="barra1"></li>
+                        <li class="text-white padding-left">4:35</li>
 
-                    <li class="text-white padding-left">4:35</li>
-
-                </ul>
+                    </ul>
+                </div>
+                
 
             </div>
 
             <div>
 
-                <ul class="flex-between text-white">
+                <ul class="flex-between align-center text-white">
                     <li class="padding-left"><i class="fa-solid fa-list-ul"></i></li>
                     <li class="padding-left"><i class="fa-solid fa-display"></i></li>
                     <li class="padding-left"><i class="fa-solid fa-volume-high"></i></li>
-                    <li class="padding-left"><input type="range" id="vol" name="vol"></li>
+                    <li class="padding-left"><input type="range" id="vol" name="vol" class="barra2"></li>
                 </ul>
 
             </div>
