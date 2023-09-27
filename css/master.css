@@ -272,3 +272,11 @@ section h2{
     accent-color: var(--color-white);
     height: 4px;
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px){
+    .card{
+        width: calc(100% / 4 - 15px);
+    }
+}
