@@ -282,6 +282,7 @@ section h2{
     background: var(--color-grey);
     cursor: pointer;
     accent-color: var(--color-white);
+    overflow: hidden;
 }
 
 .barra2{
@@ -289,6 +290,7 @@ section h2{
     cursor: pointer;
     accent-color: var(--color-white);
     height: 4px;
+    overflow: hidden;
 }
 
 /* MEDIA QUERY */
