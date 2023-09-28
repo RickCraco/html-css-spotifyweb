@@ -318,7 +318,6 @@ section h2{
 /*hover e active*/
 
 .border-green:hover{
-    transition: 0.8s;
     border-left: 2px solid var(--color-highlight);
     cursor: pointer;
 }
@@ -351,6 +350,11 @@ section h2{
 
 .card-img:hover .boack{
     display: flex;
+}
+
+.upgrade-button:hover{
+    transition: 0.7s;
+    scale: 1.1;
 }
 
 /* MEDIA QUERY */
