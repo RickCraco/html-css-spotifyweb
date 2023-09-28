@@ -102,7 +102,8 @@ ul{
 }
 
 .border-green{
-    border-left: 2px solid var(--color-highlight);
+    border-left: 0px solid var(--color-highlight);
+    display: none;
 }
 
 .border-bottom-grey{
@@ -291,6 +292,35 @@ section h2{
     accent-color: var(--color-white);
     height: 4px;
     overflow: hidden;
+}
+
+/*hover e active*/
+
+.border-green:hover{
+    transition: 0.8s;
+    border-left: 2px solid var(--color-highlight);
+    cursor: pointer;
+}
+
+.add-playlist:hover{
+    transition: 1s;
+    background-color: white;
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.nome-playlist li:hover{
+    scale: 1.1;
+    transition: 0.8s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.div-green{
+    margin: 0 auto;
+    width: 60%;
+    height: 2px;
+    background-color: #adff2f;
 }
 
 /* MEDIA QUERY */
