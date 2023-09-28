@@ -318,9 +318,14 @@ section h2{
 
 .div-green{
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
     height: 2px;
     background-color: #adff2f;
+    opacity: 0;
+}
+
+.content-page li:hover .div-green{
+    opacity: 1;
 }
 
 /* MEDIA QUERY */
